@@ -1,16 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'lib-bare-inline-calendar',
+  selector: "bare-inline-calendar",
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      bare-inline-calendar works!
-    </p>
-  `,
-  styles: ``
+  template: ` <div>Simple Event Calendar</div> `,
+  styles: ``,
 })
-export class BareInlineCalendarComponent {
-
-}
+export class BareInlineCalendarComponent {}
